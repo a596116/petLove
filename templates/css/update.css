@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@media screen and (min-width: 300px) and (max-width: 1500px) {
+body.loading .loading-modal {
+    display: block
+}
+.dropzone {
+    border: 4px dashed rgb(255, 255, 255);
+    height: 30px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 40%;
+}
+.dropzone p {
+    /*height: 100%;*/
+    /*line-height: 200px;*/
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 20px;
+}
+.input {
+    height: 100%;
+    left: 0;
+    outline: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.info {
+    margin-top: 1%;
+}
+
+.status {
+    width: 10%;
+    margin-left: 0px;
+}
+
+.image-url {
+    width: 10%;
+}
+
+.loading-table {
+    margin-left: 5px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.img {
+    width: 300%;
+    align-content: center;
+}
+
+
+.loading-modal {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 40%;
+    height: 100px;
+    width: 100px
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

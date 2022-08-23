@@ -1,0 +1,107 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "hero": {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "full",
+    "aspectRatio": "11:9",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "小黑",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none",
+        "align": "center",
+        "color": "#79a6d2"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "主人姓名",
+                "color": "#669999",
+                "size": "md",
+                "flex": 3,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "wrap": true,
+                "color": "#9999ff",
+                "size": "sm",
+                "flex": 5,
+                "text": "王教勛"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電   話",
+                "color": "#669999",
+                "size": "md",
+                "flex": 3,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "0988640301",
+                "wrap": true,
+                "color": "#9999ff",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Email",
+                "color": "#669999",
+                "size": "md",
+                "flex": 3,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "a596116@gmail.com",
+                "wrap": true,
+                "color": "#9999ff",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
